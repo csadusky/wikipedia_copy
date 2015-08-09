@@ -94,12 +94,12 @@
     <div class="tabs">
 
       <div class="tab">
-        <input type="radio" id="mainPage" name="tabGroupOne" checked>
+        <input type="radio" id="mainPage" name="tabGroupOne" checked="checked">
         <label for="mainPage">Main Page</label>
         <div class="content">
           <div id="welcomeDiv">
             <div id="welcome">
-                Welcome to Wikipedia,
+                Welcome to Wikipedia,<br>
                 the free encyclopedia that anyone can edit.
                 4,939,023 articles in English
             </div>
@@ -125,16 +125,29 @@
               </ul>
             </div>
           </div>
-
+        <div id="colorDivs">
           <div id="green">
-            <div id="littleGreen">From today's featured article</div>
-            <img src="images/eminem.png" alt="Eminem">
+            <div class="littleGreen">From today's featured article</div>
+            <img src="images/eminem.jpeg" id="eminem" alt="Eminem">
             <p>"Love the Way You Lie" is a song recorded by American rapper Eminem with Barbadian singer Rihanna, from Eminem's seventh studio album Recovery (2010). Skylar Grey and Alex da Kid collaborated on a demo of the song, which compares Grey's life in the music industry with an abusive romantic relationship. Eminem rewrote the song and asked Rihanna to sing the chorus, adding his own verses. The song describes two lovers in a dangerous love–hate relationship who refuse to separate. Backed by guitar, piano and violin, the track is a midtempo hip hop ballad with a pop refrain, recorded in Ferndale, Michigan, and Dublin, Ireland. It was released as the second single from Recovery in 2010. Critics praised its melody but were divided over its representation of domestic violence. Its accompanying music video, directed by Joseph Kahn, stars Dominic Monaghan and Megan Fox in a violent relationship, and shows Eminem and Rihanna in front of a burning house. Critics listed "Love the Way You Lie" as one of the best of the year. Eminem's best-selling single, it received several awards and five Grammy nominations. (Full article...)
             </p>
+            <div class="littleGreen">Did you know...</div>
+            <img src="images/Franklin_machine.jpg" id="machine" alt="franklin machine">
+            <ul>
+              <li>... that Franklin's electrostatic machine (pictured) led to the invention of the lightning rod?</li>
+              <li>... that Luciano Berio wrote Sequenza VII for a performer with a "virtuosity of the intellect", utilizing a variety of extended techniques?</li>
+              <li>... that the nymph of the feather-legged assassin bug is able to ambush and kill ants that are larger than itself?</li>
+              <li>... that Edvard Munch's 1897 painting The Kiss features lovers who are "virtually impossible" to separate?</li>
+              <li>... that John Fitzpatrick became Manchester United's first ever substitute in The Football League when he came on for Denis Law against Tottenham Hotspur on October 16, 1965?</li>
+              <li>... that Börjeson-Forssman-Lehmann syndrome is an X-linked genetic disease that causes intellectual disability, obesity, and growth problems?</li>
+              <li>... that the medieval Arab philosopher and skeptic al-Ma'arri wrote that religion consisted of ancient fables used to exploit the popular masses?</li>
+              <li>... that the Showcase Mall on the Las Vegas Strip features a giant Coca-Cola bottle and a miniature Grand Canyon?<li>
+            </ul>
           </div>
+
           <div id="blue">
-            <div id="littleBlue">In the News</div>
-            <img src="images/airplane.jpg" alt="Malaysia Airplane">
+            <div class="littleBlue">In the News</div>
+            <img src="images/airplane.jpg" id="airplane" alt="Malaysia Airplane">
             <ul>
               <li>A new 35 km (22 mi)-long bypass channel of Egypt's Suez Canal is officially opened, approximately doubling the canal's capacity.
               </li>
@@ -149,40 +162,56 @@
               <li>Scientist and former President of India A. P. J. Abdul Kalam dies at the age of 83.
               </li>
             </ul>
+            <div class="littleBlue">On this day...</div>
+              <p>August 9: International Day of the World's Indigenous Peoples</p>
+            <img src="images/pisa.jpg" id="pisa" alt="leaning tower of pisa">
+            <ul>
+              <li>1173 – Construction began on a campanile, which would eventually become the Leaning Tower of Pisa (pictured).</li>
+              <li>1877 – Nez Perce War: Both Nez Perce and United States Army sides suffered numerous casualties as they fought to a stalemate in the Battle of the Big Hole.</li>
+              <li>1902 – Edward VII and Alexandra of Denmark were crowned King and Queen of the United Kingdom of Great Britain and Ireland.</li>
+              <li>1965 – Malaysia expelled the state of Singapore from its federation due to heated ideological conflict between their respective ruling parties.</li>
+              <li>2006 – British police arrested 24 people for conspiring to detonate liquid explosives carried on board at least 10 airliners travelling from the United Kingdom to the United States and Canada.</li>
+            </ul>
           </div>
+          <div id="purple">
+            <div id="littlePurple">Today's Featured Picture</div>
+            <img src="images/featured.jpg" id="featured" alt="featured picture">
+            <p>A panoramic view of the beach and promontory at Nazaré, Portugal. This town, in the Oeste Subregion, is a popular resort and surfing venue. It consists of three neighborhoods: Praia, which is along the beach, and Sítio and Pederneira, which are on the hilltop.</p>
+          </div>
+        </div>
         </div>
       </div>
       <div class="tab">
-        <input type="radio" id="talk" name="tabGroupOne" checked>
-        <label for="talk">Talk</label>
+        <input type="radio" id="talk" name="tabGroupOne">
+        <label for="talk" style ="margin-right: 350px;">Talk</label>
         <div class="content">
           stuff
         </div>
       </div>
       <div class="tab">
-        <input type="radio" id="read" name="tabGroupOne" checked>
+        <input type="radio" id="read" name="tabGroupOne">
         <label for="read">Read</label>
         <div class="content">
           stuff
         </div>
       </div>
       <div class="tab">
-        <input type="radio" id="viewSource" name="tabGroupOne" checked>
+        <input type="radio" id="viewSource" name="tabGroupOne">
         <label for="viewSource">View Source</label>
         <div class="content">
           stuff
         </div>
       </div>
       <div class="tab">
-        <input type="radio" id="viewHistory" name="tabGroupOne" checked>
+        <input type="radio" id="viewHistory" name="tabGroupOne">
         <label for="viewHistory">View History</label>
         <div class="content">
           stuff
         </div>
       </div>
-
-    </div>
       <div id="search">Search</div>
+    </div>
+
 
     <!-- <div id="bigDiv"> -->
 

@@ -2,35 +2,108 @@
    outline: 1px solid red !important;
 }
 
+/*********HEADER*********/
+#header{
+  text-align: right;
+}
 
+/*********LEFT PANEL*********/
 #leftPanel{
   width: 180px;
   background-color: grey;
   float: left;
+  margin-top: -30px;
 }
 
 #logo{
   width: 128px;
 }
 
+/*********WELCOME DIV*********/
+#welcomeDiv{
+  height: 90px;
+  background-color: grey;
+}
+
 #welcome{
   float: left;
+  width: 30%;
+  text-align: center;
 }
 .bullets{
-  float: left;
+  float: right;
 }
 
+/********GREEN DIV*********/
 #green{
-  clear:both;
-  width:50%;
+  /*clear: both;*/
+  width: 50%;
+  float: left;
+  margin-top: 5px;
+  margin-right: 5px;
+  padding: 8px;
 }
 
+.littleGreen{
+  height:30px;
+}
+
+#eminem{
+  float: left;
+  margin: 10px;
+}
+
+#machine{
+  float: right;
+  margin: 10px;
+}
+
+/*********BLUE DIV*********/
+#blue{
+  width: 40%;
+  float: left;
+  margin-top: 5px;
+  padding: 8px;
+}
+
+.littleBlue{
+  height: 30px;
+}
+
+#airplane{
+  float: right;
+  margin: 10px;
+}
+
+#pisa{
+  float:right;
+  margin: 10px;
+}
+
+/**********PURPLE DIV*******/
+#purple{
+  width:100%;
+  float: left;
+  margin-top: 5px;
+  padding: 8px;
+}
+
+#littlePurple{
+  height: 30px;
+}
+
+#featured{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+/***********TABS***********/
 .tabs {
   position: relative;
-/*  min-height: 200px;  This part sucks */
   margin: 25px 0;
   display: flex;
-  height:1800px;
+  height: 1800px;
 }
 .tab {
   float: left;
@@ -63,4 +136,10 @@
 }
 [type=radio]:checked ~ label ~ .content {
   z-index: 1;
+}
+
+#search{
+  width: 200px;
+  margin-left: 8px;
+  margin-bottom: 5px;
 }
