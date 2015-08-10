@@ -5,6 +5,9 @@
 /*********HEADER*********/
 #header{
   text-align: right;
+  color: #0645ad;
+  font-size: 12px;
+  font-family: sans-serif;
 }
 
 /*********LEFT PANEL*********/
@@ -15,6 +18,18 @@
   margin-top: -30px;
 }
 
+#leftPanel li{
+  list-style-type: none;
+  color: #0645ad;
+  font-family: sans-serif;
+  font-size: 13px;
+}
+
+h3{
+  font-family: sans-serif;
+  font-size: 13px;
+  margin-left: 15px;
+}
 #logo{
   width: 128px;
   margin-left: 24px;
@@ -32,9 +47,18 @@
   float: left;
   width: 30%;
   text-align: center;
+  width: 250px;
+}
+
+span{
+  color: #0645ad;
 }
 .bullets{
   float: right;
+  color: #0645ad;
+  margin-right: 40px;
+  font-size: 14px;
+  padding: 10px;
 }
 
 #colorDivs{
@@ -50,6 +74,7 @@
   padding: 8px;
   background-color: #f5fffa;
   border: 1px solid #cef2e0;
+  font-size: 14px;
 }
 
 .littleGreen{
@@ -79,7 +104,8 @@
   margin-top: 5px;
   padding: 8px;
   border: 1px solid #a7d7f9;
-  background-color: #EDF3FA
+  background-color: #EDF3FA;
+  font-size: 14px;
 }
 
 .littleBlue{
@@ -104,21 +130,31 @@
 
 /**********PURPLE DIV*******/
 #purple{
-  width:100%;
+  width: 92%;
   float: left;
   margin-top: 5px;
   padding: 8px;
+  border: 1px solid #ddcef2;
+  background: #faf5ff;
+  font-size: 14px;
 }
 
 #littlePurple{
   height: 20px;
+  font-family: sans-serif;
   font-size: 17px;
+  font-weight: bold;
+  background: #ddcef2;
+  border: 1px solid #afa3bf;
+  padding: 5px;
+
 }
 
 #featured{
   display: block;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 10px;
 
 }
 /***********TABS***********/
@@ -135,14 +171,20 @@
   float: left;
 }
 .tab label {
-  background: #eee;
+  background-image: linear-gradient(white, #DAEBF2);
   padding: 10px;
   padding-bottom: 14px;
   border: 1px solid #7FD4F5;
-  border-top: 1px solid white;
+  -webkit-border-image: -webkit-gradient(linear, 0 0, 0 50%, from(white), to(#7FD4F5))) 1 100%;
+  -webkit-border-image: -webkit-linear-gradient(white, #7FD4F5 50%) 1 100%;
+  -moz-border-image: -moz-linear-gradient(white, #7FD4F5 50%) 1 100%;
+  -o-border-image: -o-linear-gradient(white, #7FD4F5 50%) 1 100%;
+  border-image: linear-gradient(to bottom, white, #7FD4F5 50%) 1 100%;
+  border-top: 0px solid white;
   margin-left: -1px;
   position: relative;
   left: 1px;
+  color: #0645ad;
 }
 .tab [type=radio] {
   display: none;
@@ -161,6 +203,7 @@
   background: white;
   border-bottom: 1px solid white;
   z-index: 2;
+  color: black;
 }
 [type=radio]:checked ~ label ~ .content {
   z-index: 1;
@@ -168,6 +211,16 @@
 
 #search{
   width: 200px;
+  height: 20px;
   margin-left: 8px;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
+  padding-top: 2px;
+  font-size: 14px;
+  border: 1px solid #CFD1D1;
+  color: #CFD1D1;
+
+}
+
+i{
+  float: right;
 }
